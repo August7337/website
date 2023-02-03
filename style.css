@@ -67,11 +67,10 @@ p{
 .Grid{
     width: auto;
     max-width: 1075px;
-    
-}
+    font-size:0px;
 
-.Center{
-    width: auto;
+
+    
 }
 
 .GridImage{
@@ -79,10 +78,9 @@ p{
     margin: 0;
     border: 0;
     padding: 0;
-    float: left;
+}
 
-
-    
-    
-    
+.Page{
+    background-color: bisque;
+    width: 600px;
 }
