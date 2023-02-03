@@ -1,24 +1,45 @@
+@font-face {
+    font-family: 'Futura';
+    src: url('fonts/FuturaLtLight.ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family:sans-serif;
     text-align: center;
 }
 
 .Home{
-    height: 50vh; /*!*\   /*A changer*/
-    background-color: rgb(214, 221, 227);
+    height: 100vh; /*!*\   /*A changer*/
+    
+    background-image: url('img/noise-texture.jpg');
+    background-color: black;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1{
-    font-size: 71px;
-    padding-top: 100px;
+    font-size: 68px;
+    padding-top: 40vh;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 10px;
+    color: white;
+}
     
+.text h2{
+    font-size: 17px;
+    letter-spacing: 9px;
+    font-family: Futura;
+    color: white;
 }
 
 h2{
+    
+    letter-spacing: 5px;
     font-size: 34px;
 }
 
@@ -81,11 +102,15 @@ p{
 }
 
 .AboutMe{
+    background-color: black;
     display: flex;
-    
+    justify-content: center;
 }
 
 .Page{
     background-color: bisque;
     width: 600px;
+    padding: 5px;
+    margin: 25px;
+    
 }
