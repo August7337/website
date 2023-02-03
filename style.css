@@ -80,6 +80,11 @@ p{
     padding: 0;
 }
 
+.AboutMe{
+    display: flex;
+    
+}
+
 .Page{
     background-color: bisque;
     width: 600px;
