@@ -157,22 +157,39 @@ p{
 }
 
 .GridImage:hover {
-    -webkit-filter: brightness(70%);
+    -webkit-filter: brightness(65%);
     cursor: pointer;
 }
 
 .AboutMe{
-    background-color: black;
     display: flex;
     justify-content: center;
+    background-image: url('img/AboutMe.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
 
-
-
 .Page{
-    background-color: bisque;
-    width: 600px;
-    padding: 5px;
-    margin: 25px;
-    
+    background-color: rgb(255, 255, 255);
+    flex: 1 1 auto;
+    max-width: 600px;
+    padding: 10px;
+    margin: 70px 20px 38px 20px;
+}
+
+.Page .Line{
+    margin-bottom: 5px;
+}
+
+.Footer{
+    background-color: rgb(36, 36, 36);
+    padding: 15px 0 15px 0;
+}
+
+.Footer p{
+    font-size: 14px;
+    color: white;
 }
