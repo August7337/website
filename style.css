@@ -3,23 +3,25 @@
     src: url('fonts/FuturaLtLight.ttf');
 }
 
+
 *{
     padding: 0;
     margin: 0;
-    font-family:sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
 .Home{
     height: 100vh; /*!*\   /*A changer*/
     
-    background-image: url('img/noise-texture.jpg');
+    background-image: url('img/test.png');
     background-color: black;
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
 }
 
 h1{
@@ -38,7 +40,6 @@ h1{
 }
 
 h2{
-    
     letter-spacing: 5px;
     font-size: 34px;
 }
@@ -48,7 +49,7 @@ h3{
 }
 
 p{
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .Line{
@@ -74,10 +75,37 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('img/black-texture.jpg');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.Skills h2{
+    margin-top: 125px;
+}
+
+.Skills h3{
+    margin-bottom: 18px;
+}
+
+.Skills h2, .Skills h3, .Skills p{
+    color: white;
 }
 
 .SoftSpace{
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 480px;
+    
+}
+
+.Inter{
+    margin-left: 20px;
 }
 
 .Software{
@@ -85,9 +113,14 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 30px 0 100px 0;
     width: auto;
     max-width: 200px;
+}
+
+.Software img{
+    width: 120px;
+    margin-bottom: 24px;
 }
 
 .Portfolio{
