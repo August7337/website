@@ -131,20 +131,34 @@ p{
     align-items: center;
 }
 
+.Portfolio h2{
+    margin-top: 85px;
+}
+
+.Portfolio .Line{
+    margin-bottom: 25px;
+}
+
 .Grid{
     width: auto;
     max-width: 1075px;
     font-size:0px;
-
-
-    
+    margin-bottom: 35px;
 }
 
 .GridImage{
     width: 350px;
-    margin: 0;
-    border: 0;
-    padding: 0;
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.GridImage:hover {
+    -webkit-filter: brightness(70%);
+    cursor: pointer;
 }
 
 .AboutMe{
@@ -152,6 +166,8 @@ p{
     display: flex;
     justify-content: center;
 }
+
+
 
 .Page{
     background-color: bisque;
